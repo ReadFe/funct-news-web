@@ -17,7 +17,7 @@ const Content = () => {
           }
 
         getData()
-    }, [])
+    }, [search])
 
     useEffect(() => {
         const filteredData = data.filter(item => {
